@@ -1,3 +1,5 @@
+// Realisierung/Implementierung der Schnittstelle
+
 #ifndef TEMPERATURSENSOR_H
 #define TEMPERATURSENSOR_H
 #include "datagate.h"

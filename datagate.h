@@ -3,6 +3,7 @@
 #include <string>
 using namespace std;
 
+// <<interface>>
 class DataGate
 {
 public:

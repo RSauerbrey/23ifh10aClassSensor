@@ -1,6 +1,9 @@
+// Realisierung/Implementierung der Schnittstelle
+
 #ifndef FEUCHTESENSOR_H
 #define FEUCHTESENSOR_H
 #include "datagate.h"
+
 
 class FeuchteSensor : public DataGate
 {

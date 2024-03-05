@@ -1,3 +1,5 @@
+// Realisierung/Implementierung der Schnittstelle
+
 #include "temperatursensor.h"
 #include <iostream>
 using namespace std;

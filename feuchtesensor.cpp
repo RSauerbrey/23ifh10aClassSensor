@@ -1,6 +1,10 @@
+// Realisierung/Implementierung der Schnittstelle
+
 #include "feuchtesensor.h"
 #include <iostream>
 using namespace std;
+
+
 
 FeuchteSensor::FeuchteSensor()
 {
