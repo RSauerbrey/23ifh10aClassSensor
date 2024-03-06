@@ -9,19 +9,17 @@ using namespace std;
 int main()
 {
     //Feuchtesensor anlegen
-    TempSensorTyp1 *f = new TempSensorTyp1;
-    double A[10] = {0};
+    TempSensorTyp1 *t1 = new TempSensorTyp1;
+    TempSensorTyp2 *t2 = new TempSensorTyp2;
 
-    f->fetchData(A);
+    DataGate *sensoren[4];
 
-    for(int i = 0 ; i < f->dataSize(); i++)
-    {
-        cout << A[i] << endl;
-    }
+    sensoren[0] = t1;
+    sensoren[1] = t2;
 
-    cout << f->getSensorType() << endl;
 
-    delete f;
+    cout << sensoren[0]->getSensorType() << endl;
+    cout << sensoren[1]->getSensorType() << endl;
 
     return 0;
 }

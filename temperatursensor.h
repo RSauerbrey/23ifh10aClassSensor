@@ -22,4 +22,10 @@ public:
     string getSensorType();
 };
 
+class TempSensorTyp2 : public TemperaturSensor
+{
+public:
+     string getSensorType();
+};
+
 #endif // TEMPERATURSENSOR_H

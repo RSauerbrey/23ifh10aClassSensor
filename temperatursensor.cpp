@@ -40,5 +40,10 @@ int TemperaturSensor::dataSize()
 
 string TempSensorTyp1::getSensorType()
 {
-    return TemperaturSensor::getSensorType();
+    return "Typ1";
+}
+
+string TempSensorTyp2::getSensorType()
+{
+    return "Typ2";
 }
