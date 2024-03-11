@@ -1,25 +1,17 @@
 #include <iostream>
 #include "feuchtesensor.h"
 #include "temperatursensor.h"
+#include "avganalyzer.h"
 
 using namespace std;
-
-
 
 int main()
 {
     //Feuchtesensor anlegen
-    TempSensorTyp1 *t1 = new TempSensorTyp1;
-    TempSensorTyp2 *t2 = new TempSensorTyp2;
+    FeuchteSensor *f = new FeuchteSensor;
+    AvgAnalyzer *a = new AvgAnalyzer(f);
 
-    DataGate *sensoren[4];
-
-    sensoren[0] = t1;
-    sensoren[1] = t2;
-
-
-    cout << sensoren[0]->getSensorType() << endl;
-    cout << sensoren[1]->getSensorType() << endl;
+    cout << a->getSensorType() << endl;
 
     return 0;
 }

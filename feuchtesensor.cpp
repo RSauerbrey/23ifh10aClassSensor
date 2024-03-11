@@ -23,7 +23,7 @@ FeuchteSensor::~FeuchteSensor()
 
 string FeuchteSensor::getSensorType()
 {
-    return "Feucht";
+    return "Feuchtesensor";
 }
 
 void FeuchteSensor::fetchData(double a[])
