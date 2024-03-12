@@ -28,7 +28,6 @@ string FeuchteSensor::getSensorType()
 
 void FeuchteSensor::fetchData(double a[])
 {
-   //ToDo
    for(int i = 0 ; i < 10; i++)
    {
        a[i] = data[i];
