@@ -6,6 +6,7 @@ class MaxAnalyzer:public Analyzer
 {
 public:
     MaxAnalyzer();
+    MaxAnalyzer(DataGate* dG);
     string getSensorType();
     void fetchData(double a[]);
     int dataSize();
